@@ -1,21 +1,44 @@
 # Jargon
-A different approach to language development and design. We consider a philosophical perspective to a minimalist, contextual, object-oriented programming language to solve problems.
 
-We assume most readers landing here know what object-oriented programming is. If not,
-[check here][1].
+We expect most readers landing here know what [object-oriented programming][1] is. Also see a related reference on [aspect-oriented programming.][2]
 
-And see a related reference on [aspect-oriented programming.][2]
+Here approach language development and design from a philosophical perspective to achieve a minimalist, contextual, object-oriented programming language to solve the problems of the future.
 
-Contextual coding is not unique. Context is obvious in object-oriented programming 
-through object heirarchy. In C#, everything derives from `Object`. Certain methods 
+**Questions**
+1. Why?
+2. Aren't the current languages adequate?
+3. What's wrong with C/C++, C#, Java, and Python?
+
+**Answers**
+1. Because we can
+2. Maybe
+3. Probably nothing
+
+But ... we don't know what we don't know. What we do know is that problems are becoming more complex because we demand more from our data and from our applications. Application development is a dirty process. Every language has a paradigm - a culture, if you will. Within that paradigm are often sub-paradigms which we might more properly identify as *coding styles*. When we get to coding styles, everyone seems to agree that readability is the number one concern. One problem is that *readability* can be subjective. So, readability has to be further described with additional rules (or conventions) that may or may not fall into *style*.
+
+> **For Instance**
+> Convention: Variable names should be clear what the value represents but don't use Hungarian naming.
+> *Example:*
+> Given class `Person`
+>
+> ``` c
+> // good
+> Person person;
+>
+> // bad
+> Person p;
+
+
+
+Contextual coding is not unique. Context is obvious in object-oriented programming through object heirarchy. In C#, everything derives from `Object`. Certain methods 
 are available to all objects - whether reference or value types: 
  - `ToString()`
  - `GetHashCode(...)`
  - `Equals(...)`
  
-In addition, all reference and value types can be cast to `Object`.
+In addition, all reference and value types can be cast to `Object` and, respective of type can be cast *from* `Object`.
 
-From a class perspective, all the properties and methods contained within the object 
+From a *class* perspective, all properties and methods contained within the object 
 definition are in the context of that class. Consider the following example:
 
 ``` c#
