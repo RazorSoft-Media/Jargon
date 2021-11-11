@@ -4,6 +4,8 @@ A different approach to language development and design. We consider a philosoph
 We assume most readers landing here know what object-oriented programming is. If not,
 [check here][1].
 
+And see a related reference on [aspect-oriented programming.][2]
+
 Contextual coding is not unique. Context is obvious in object-oriented programming 
 through object heirarchy. In C#, everything derives from `Object`. Certain methods 
 are available to all objects - whether reference or value types: 
@@ -143,3 +145,4 @@ It looks different but is still intuitive if you know what the C# `out` paramete
 is.
 
 [1]: https://www.tutorialspoint.com/What-is-object-oriented-programming-OOP "OOP"
+[2]: https://docs.jboss.org/aop/1.0/aspect-framework/userguide/en/html/what.html "AOP"
