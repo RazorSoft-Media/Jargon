@@ -36,9 +36,11 @@ We can even describe a difference between rule, guideline, and convention.
 
 Our goal is to develop a language but we are extremely conservative with what we accept as foundationally unchangeable. In other words, whatever we thought of as **given**, **standard**, or **tradition**, we should re-evaluate. We are approaching from outside the proverbial box. We should question everything we *think* we know about language theory even from the basics of language construction and definition.
 
-Should traditional language theory apply to formal computer (programming) languages? This very question aims to force debate on human readability. Well, what's the definition of *human readability*? Alright, are we ready to head down that hole to Wonderland?
+Should traditional language theory apply to formal computer (programming) languages? This very question aims to force debate on human readability. Well, what's the definition of *human readability*?  
 
-We are here to learn, explore, hypothesize, theorize, practice, discuss, debate and create. We will do this on the premise that everyone has valid and valued ideas and thoughts (as thoughts and ideas pertain to the subject matter). We will not criticize individuals. We will think critically and critique ideas.
+We are here to learn, explore, hypothesize, theorize, practice, discuss, debate and create. We will do this on the premise that everyone has valid and valued ideas and thoughts (as thoughts and ideas pertain to the subject matter). We will not criticize individuals. We will think critically and critique ideas. 
+
+Now ... all *that* said, are we ready to head down that hole to Wonderland?
 
 ____________________________________________________________________
 ... following to be moved & reorganized
