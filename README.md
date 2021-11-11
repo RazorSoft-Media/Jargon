@@ -16,10 +16,9 @@ Here approach language development and design from a philosophical perspective t
 
 But ... we don't know what we don't know. What we do know is that problems are becoming more complex because we demand more from our data and from our applications. Application development is a dirty process. Every language has a paradigm - a culture, if you will. Within that paradigm are often sub-paradigms which we might more properly identify as *coding styles*. When we get to coding styles, everyone seems to agree that readability is the number one concern. One problem is that *readability* can be subjective. So, readability has to be further described with additional rules (or conventions) that may or may not fall into *style*.
 
-> **For Instance**
-> Convention: Variable names should be clear what the value represents but don't use Hungarian naming.
-> *Example:*
-> Given class `Person`
+> **For Instance**  
+> Convention: Variable names should be clear what the value represents but don't use Hungarian naming.  
+> *Example:* Given class `Person`  
 >
 > ``` c
 > // good
@@ -27,7 +26,7 @@ But ... we don't know what we don't know. What we do know is that problems are b
 >
 > // bad
 > Person p;
-
+> ```
 
 
 Contextual coding is not unique. Context is obvious in object-oriented programming through object heirarchy. In C#, everything derives from `Object`. Certain methods 
