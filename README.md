@@ -1,8 +1,12 @@
 # Jargon
 
-We expect most readers landing here know what [object-oriented programming][1] is. Also see a related reference on [aspect-oriented programming.][2]
+Recommended reading or knowledge:
+* [object-oriented programming][1]
+* [aspect-oriented programming][2]
+* [language theory][3]
+* [Extended Backus-Naur Form][4]
 
-Here approach language development and design from a philosophical perspective to achieve a minimalist, contextual, object-oriented programming language to solve the problems of the future.
+We discuss language theory and design from a philosophical perspective to achieve a minimalist, contextual, object-oriented programming language to solve the problems of the future.
 
 **Questions**
 1. Why?
@@ -14,10 +18,10 @@ Here approach language development and design from a philosophical perspective t
 2. Maybe
 3. Probably nothing
 
-But ... we don't know what we don't know. What we do know is that problems are becoming more complex because we demand more from our data and from our applications. Application development is a dirty process. Every language has a paradigm - a culture, if you will. Within that paradigm are often sub-paradigms which we might more properly identify as *coding styles*. When we get to coding styles, everyone seems to agree that readability is the number one concern. One problem is that *readability* can be subjective. So, readability has to be further described with additional rules (or conventions) that may or may not fall into *style*.
+But ... we don't know what we don't know. What we *do* know is that problems are becoming more complex; we demand more from our data and from our applications. Software development is a dirty process. Every language has a paradigm - a culture, if you will. Within that paradigm are often sub-paradigms which we might more properly identify as *coding styles*. Generally, developers agree readability is the number one concern. One problem, though, is that *readability* can be subjective. It follow then, if readability is subjective, then it must be further described with additional rules, guidelines, or conventions.
 
 > **For Instance**  
-> Convention: Variable names should be clear what the value represents but don't use Hungarian naming.  
+> Rule: Variable names should be clear what the value represents but don't use Hungarian naming.  
 > *Example:* Given class `Person`  
 >
 > ``` c
@@ -28,6 +32,16 @@ But ... we don't know what we don't know. What we do know is that problems are b
 > Person p;
 > ```
 
+We can even describe a difference between rule, guideline, and convention.
+
+Our goal is to develop a language but we are extremely conservative with what we accept as foundationally unchangeable. In other words, whatever we thought of as **given**, **standard**, or **tradition**, we should re-evaluate. We are approaching from outside the proverbial box. We should question everything we *think* we know about language theory even from the basics of language construction and definition.
+
+Should traditional language theory apply to formal computer (programming) languages? This very question aims to force debate on human readability. Well, what's the definition of *human readability*? Alright, are we ready to head down that hole to Wonderland?
+
+We are here to learn, explore, hypothesize, theorize, practice, discuss, debate and create. We will do this on the premise that everyone has valid and valued ideas and thoughts (as thoughts and ideas pertain to the subject matter). We will not criticize individuals. We will think critically and critique ideas.
+
+____________________________________________________________________
+... following to be moved & reorganized
 
 Contextual coding is not unique. Context is obvious in object-oriented programming through object heirarchy. In C#, everything derives from `Object`. Certain methods 
 are available to all objects - whether reference or value types: 
@@ -168,3 +182,5 @@ is.
 
 [1]: https://www.tutorialspoint.com/What-is-object-oriented-programming-OOP "OOP"
 [2]: https://docs.jboss.org/aop/1.0/aspect-framework/userguide/en/html/what.html "AOP"
+[3]: https://en.wikipedia.org/wiki/Formal_language "theory"
+[4]: https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form "EBNF"
