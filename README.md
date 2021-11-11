@@ -33,7 +33,7 @@ public class Person {
 
 When `Person` is instantiated
 
-```
+``` c#
 Person p = new(){Id = 1, Name = "John Paul"};
 ```
 
@@ -43,7 +43,7 @@ the assigned variable `p`.
 Also, the method `StartVacation(...)` belongs to the context of `Person`. The non-static 
 method is accessed through the variable 'p'.
 
-```
+``` c#
 p.StartVacation(dt);
 ```
 
@@ -54,7 +54,7 @@ object to display or manipulate the object. C# extension methods are an example 
 context-oriented coding. As an extension of `Person`, the method `StartVacation(...)` 
 would look like 
 
-```
+``` c#
 public void StartVacation(this Person p, DateTime dt) {
 	...
 }
@@ -66,7 +66,7 @@ data objects returned to business or display layers.
 
 What would this process look like from a purely contextual perspective?
 
-```
+``` c
 /*
 	Define the DataLayer API in a namespace. There is no need for a class. A class 
 	should be used when multiple instances of independent objects are needed. For 
