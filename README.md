@@ -18,7 +18,7 @@ In addition, all reference and value types can be cast to `Object`.
 From a class perspective, all the properties and methods contained within the object 
 definition are in the context of that class. Consider the following example:
 
-```
+``` c#
 //	C#
 public class Person {
 	public int Id {get; set;}
