@@ -1,0 +1,3 @@
+"C:\CLion 2021.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\jargon.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\jargon.dir/objects.a @CMakeFiles\jargon.dir\objects1.rsp
+C:\MinGW\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\jargon.dir/objects.a -Wl,--no-whole-archive -o jargon.exe -Wl,--out-implib,libjargon.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\jargon.dir\linklibs.rsp

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="jargon"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jargon">
+				<Option output="C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/libjargon.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 jargon"/>
+					<CompileFile command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="jargon/fast">
+				<Option output="C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/libjargon.dll" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 jargon/fast"/>
+					<CompileFile command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/CodeBlocks/MinGW/bin/mingw32-make.exe -f &quot;C:/LSLT Software Development/Indie/Jargon/source/jargon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/LSLT Software Development/Indie/Jargon/source/jargon/library.c">
+			<Option target="jargon"/>
+		</Unit>
+		<Unit filename="C:/LSLT Software Development/Indie/Jargon/source/jargon/library.h">
+			<Option target="jargon"/>
+		</Unit>
+		<Unit filename="C:/LSLT Software Development/Indie/Jargon/source/jargon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

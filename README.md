@@ -40,7 +40,7 @@ Should traditional language theory apply to formal computer (programming) langua
 
 We are here to learn, explore, hypothesize, theorize, practice, discuss, debate and create. We will do this on the premise that everyone has valid and valued ideas and thoughts (as thoughts and ideas pertain to the subject matter). We will not criticize individuals. We will think critically and critique ideas. 
 
-Now ... all *that* said, are we ready to head down that hole to Wonderland?
+Now ... all *that* said, are we ready to head [down that hole to Wonderland][5]?
 
 ____________________________________________________________________
 ... following to be moved & reorganized
@@ -186,3 +186,4 @@ is.
 [2]: https://docs.jboss.org/aop/1.0/aspect-framework/userguide/en/html/what.html "AOP"
 [3]: https://en.wikipedia.org/wiki/Formal_language "theory"
 [4]: https://en.wikipedia.org/wiki/Extended_Backus%E2%80%93Naur_form "EBNF"
+[5]: 
