@@ -1,4 +1,4 @@
-COMMENT @
+/*
 	MIT License
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -18,4 +18,21 @@ COMMENT @
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
-@
+
+	Author: David Boarman
+*/
+
+
+#include "common.h"
+
+
+#ifndef JARGON_H
+#define JARGON_H
+
+int SampleAdd(int i1, int i2);
+
+bool SampleFunction1();
+
+int SampleFunction2();
+
+#endif // JARGON_H

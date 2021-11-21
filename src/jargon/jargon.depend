@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1637374102 source:c:\lslt software development\razorsoft\jargon\src\jargon\jargon.c
+	"jargon.h"
+
+1637374272 c:\lslt software development\razorsoft\jargon\src\jargon\jargon.h
+	<stdbool.h>
+	<stdint.h>
+

@@ -1,4 +1,4 @@
-COMMENT @
+/*
 	MIT License
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -18,4 +18,34 @@ COMMENT @
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
-@
+
+	Author: David Boarman
+*/
+
+
+#ifndef TEST_TOKEN_H
+#define TEST_TOKEN_H
+
+
+#include <stdarg.h>
+#include <stddef.h>
+#include <setjmp.h>
+#include <stdint.h>
+
+//#include <cmocka.h>
+#include <unit_testing.h>
+#include <stdbool.h>
+
+
+//  test declarations
+void test_create_token (void ** state);
+void test_pass (void ** state);
+void test_fail (void ** state);
+
+//  setup/teardown
+int setup (void ** state);
+int teardown (void ** state);
+
+//  test function
+void run_token_tests(void);
+#endif // TEST_TOKEN_H

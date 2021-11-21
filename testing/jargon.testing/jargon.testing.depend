@@ -1,0 +1,67 @@
+# depslib dependency file v1.0
+1553772830 source:c:\lslt software development\razorsoft\jargon\testing\jargon.testing\cmocka.c
+	"config.h"
+	<malloc.h>
+	<inttypes.h>
+	<signal.h>
+	<strings.h>
+	<stdint.h>
+	<setjmp.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<time.h>
+	<float.h>
+	"cmocka_platform.h"
+	<cmocka.h>
+	<cmocka_private.h>
+
+1637515235 source:c:\lslt software development\razorsoft\jargon\testing\jargon.testing\main.c
+	<stdio.h>
+	<stdlib.h>
+	"test_token.h"
+
+1637375400 c:\lslt software development\razorsoft\jargon\testing\jargon.testing\test_runner.h
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<stdint.h>
+	<cmocka.h>
+	<stdbool.h>
+
+1637375468 source:c:\lslt software development\razorsoft\jargon\testing\jargon.testing\test_runner.c
+	"test_runner.h"
+	"jargon.h"
+
+1637375468 source:c:\lslt software development\razorsoft\jargon\src\jargon\jargon.c
+	"jargon.h"
+
+1637381525 c:\lslt software development\razorsoft\jargon\src\jargon\jargon.h
+	"common.h"
+
+1637382820 c:\lslt software development\razorsoft\jargon\src\jargon\common.h
+	<stdio.h>
+	<stdbool.h>
+	<stdint.h>
+
+1637508731 source:c:\lslt software development\razorsoft\jargon\src\jargon\token.c
+	"token.h"
+
+1637508731 c:\lslt software development\razorsoft\jargon\src\jargon\token.h
+	"common.h"
+
+1637516598 source:c:\lslt software development\razorsoft\jargon\testing\jargon.testing\test_token.c
+	"test_token.h"
+	"jargon.h"
+	"token.h"
+
+1637517347 c:\lslt software development\razorsoft\jargon\testing\jargon.testing\test_token.h
+	<stdarg.h>
+	<stddef.h>
+	<setjmp.h>
+	<stdint.h>
+	<unit_testing.h>
+	<stdbool.h>
+

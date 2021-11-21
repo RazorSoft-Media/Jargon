@@ -1,0 +1,15 @@
+tool chain/	(all configurations - search paths, etc - should load with projects)
+	1. Code::Blocks (workspace: Jargon.workspace)
+	2. GNU GCC
+	4. CMOCKA
+	
+data structures/
+	`
+		Token encapsulates parameters to extract an array slice.
+	`
+	Token {
+		int start;
+		int length;
+	}
+	
+	

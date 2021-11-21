@@ -1,4 +1,4 @@
-COMMENT @
+/*
 	MIT License
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -18,4 +18,24 @@ COMMENT @
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
-@
+
+	Author: David Boarman
+*/
+
+
+#ifndef TOKEN_H
+#define TOKEN_H
+
+
+#include "common.h"
+
+
+struct Token {
+    int start;
+    int length;
+};
+
+
+token create_token(int start, int length);
+
+#endif // TOKEN_H

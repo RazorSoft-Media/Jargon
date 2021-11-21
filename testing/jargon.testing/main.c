@@ -1,4 +1,4 @@
-COMMENT @
+/*
 	MIT License
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -18,4 +18,22 @@ COMMENT @
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
-@
+
+	Author: David Boarman
+*/
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+#include "test_token.h"
+
+
+int main() {
+    run_token_tests();
+
+    printf("\n\n... press ENTER to continue ...");
+    getchar();
+
+    return 0;
+}

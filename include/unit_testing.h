@@ -1,4 +1,4 @@
-COMMENT @
+/*
 	MIT License
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -18,4 +18,20 @@ COMMENT @
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
-@
+	
+	Author: David Boarman
+*/
+
+
+#ifndef UNIT_TESTING_H
+#define UNIT_TESTING_H
+
+#ifndef CMOCKA_H
+#include <cmocka.h>
+#endif
+
+//  tests
+extern const struct CMUnitTest test_group [];
+
+
+#endif	//UNIT_TESTING_H

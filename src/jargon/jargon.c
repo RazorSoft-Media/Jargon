@@ -1,4 +1,4 @@
-COMMENT @
+/*
 	MIT License
 
 	Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -18,4 +18,29 @@ COMMENT @
 	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 	SOFTWARE.
-@
+
+	Author: David Boarman
+*/
+
+
+#include "jargon.h"
+
+
+// A function adding two integers and returning the result
+int SampleAdd(int i1, int i2) {
+    return i1 + i2;
+}
+
+// A function doing nothing ;)
+bool SampleFunction1() {
+    // insert code here
+
+    return true;
+}
+
+// A function always returning zero
+int SampleFunction2() {
+    // insert code here
+
+    return 0;
+}

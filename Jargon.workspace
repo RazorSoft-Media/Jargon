@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Jargon">
+		<Project filename="testing/jargon.testing/jargon.testing.cbp" />
+		<Project filename="src/jargon/jargon.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
