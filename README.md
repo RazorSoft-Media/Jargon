@@ -45,6 +45,23 @@ Now ... all *that* said, are we ready to head [down that hole to Wonderland][5]?
 ____________________________________________________________________
 ... following to be moved & reorganized
 
+C uses context in the following initialization of an object variable:
+``` c
+	// given the following data structure
+	struct person {
+		int id;
+		const char[] fname;
+		const char[] lname;
+	};
+	
+	//	initialization
+	person p = {
+		.id = 0,
+		.fname = "John",
+		.lname = "Doe"
+	};
+```
+
 Contextual coding is not unique. Context is obvious in object-oriented programming through object heirarchy. In C#, everything derives from `Object`. Certain methods 
 are available to all objects - whether reference or value types: 
  - `ToString()`

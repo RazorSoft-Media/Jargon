@@ -1,8 +1,8 @@
 name = Jargon;
 version = 0.0.1;
 release = a;
-lexicons = [
-	".\.Lexicon\jargon.lex" 
+lexicon = [
+	".\.Lexicon\common.lang" 
 ];
 sources = [
 ];

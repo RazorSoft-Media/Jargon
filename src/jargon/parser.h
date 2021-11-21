@@ -23,24 +23,9 @@
 */
 
 
-#include "jargon.h"
+#ifndef PARSER_H
+#define PARSER_H
 
 
-// A function adding two integers and returning the result
-int SampleAdd(int i1, int i2) {
-    return i1 + i2;
-}
 
-// A function doing nothing ;)
-bool SampleFunction1() {
-    // insert code here
-
-    return true;
-}
-
-// A function always returning zero
-int SampleFunction2() {
-    // insert code here
-
-    return 0;
-}
+#endif // PARSER_H
